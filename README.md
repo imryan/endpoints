@@ -35,7 +35,6 @@ Response:
     "https://www.tokendata.io/icos/advanced",
     "https://www.tokendata.io/icos/upcoming"
   ]
-  ...
 }
 ```
 
