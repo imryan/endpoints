@@ -13,13 +13,13 @@ Response:
     {
       "name": "tokendataio",
       "website": "https://www.tokendata.io",
+      "documentation":"https://github.com/imryan/endpoints/docs/tokendataio",
       "endpoints": [
         "https://www.tokendata.io/icos",
         "https://www.tokendata.io/icos/advanced",
         "https://www.tokendata.io/icos/upcoming"
       ]
-    },
-    ...
+    }
   ]
 }
 ```
@@ -29,6 +29,7 @@ Response:
 {
   "name": "tokendataio",
   "website": "https://www.tokendata.io",
+  "documentation":"https://github.com/imryan/endpoints/docs/tokendataio",
   "endpoints": [
     "https://www.tokendata.io/icos",
     "https://www.tokendata.io/icos/advanced",
