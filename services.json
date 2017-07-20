@@ -3,7 +3,7 @@
     {
       "name": "tokendataio",
       "website": "https://www.tokendata.io",
-      "documentation":"https://github.com/imryan/endpoints/docs/tokendataio.md",
+      "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/tokendataio.md",
       "endpoints": [
         "https://www.tokendata.io/icos",
         "https://www.tokendata.io/icos/advanced",

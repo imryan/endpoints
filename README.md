@@ -4,7 +4,7 @@ Open source journal of URL digging with bonus web service.
 ## Accessing an endpoint
 To access an endpoint:
 
-`GET https://github.com/imryan/endpoints/blob/master/services` `// TODO`
+`GET https://raw.githubusercontent.com/imryan/endpoints/master/services.json`
 
 Response:
 ```
@@ -13,7 +13,7 @@ Response:
     {
       "name": "tokendataio",
       "website": "https://www.tokendata.io",
-      "documentation":"https://github.com/imryan/endpoints/docs/tokendataio",
+      "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/tokendataio.md",
       "endpoints": [
         "https://www.tokendata.io/icos",
         "https://www.tokendata.io/icos/advanced",
@@ -29,7 +29,7 @@ Response:
 {
   "name": "tokendataio",
   "website": "https://www.tokendata.io",
-  "documentation":"https://github.com/imryan/endpoints/docs/tokendataio",
+  "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/tokendataio.md",
   "endpoints": [
     "https://www.tokendata.io/icos",
     "https://www.tokendata.io/icos/advanced",
