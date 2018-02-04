@@ -1,13 +1,21 @@
 {
   "services": [
     {
-      "name": "tokendataio",
+      "name": "TokenData.io",
       "website": "https://www.tokendata.io",
       "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/tokendataio.md",
       "endpoints": [
         "https://www.tokendata.io/icos",
         "https://www.tokendata.io/icos/advanced",
         "https://www.tokendata.io/icos/upcoming"
+      ]
+    },
+    {
+      "name": "Open UV",
+      "website": "https://www.openuv.io",
+      "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/openuv.md",
+      "endpoints": [
+        "https://api.openuv.io/api/v1/uv"
       ]
     }
   ]
