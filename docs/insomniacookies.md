@@ -35,21 +35,21 @@ Parameters:
 Response:
 ```
 {
-"0": {
-  "shipping_method": "4",
-  "store_id": 1143,
-  "id": 1988790659,
-  "status": 6,
-  "noteExist": 0
-},
-"store": {
-  "name": "Hoboken - delivering to Hoboken and surrounding area",
-  "lat": "40.7369205",
-  "lng": "-74.0302510",
-  "address": "56 Newark St.",
-  "city": "Hoboken",
-  "state": "NJ",
-  "zip": "07030"
-  }
+  "0": {
+    "shipping_method": "4",
+    "store_id": 1143,
+    "id": 1988790659,
+    "status": 6,
+    "noteExist": 0
+  },
+  "store": {
+    "name": "Hoboken - delivering to Hoboken and surrounding area",
+    "lat": "40.7369205",
+    "lng": "-74.0302510",
+    "address": "56 Newark St.",
+    "city": "Hoboken",
+    "state": "NJ",
+    "zip": "07030"
+   }
 }
 ```
