@@ -26,6 +26,7 @@
         "https://insomniacookies.com/tracker/getDriverLocation",
         "https://insomniacookies.com/tracker/getOrderStatus",
         "https://insomniacookies.com/user/login/json",
+        "https://insomniacookies.com/shop/getProduct",
         "https://insomniacookies.com/shop/addProduct",
         "https://insomniacookies.com/shop/getCart"
       ]
