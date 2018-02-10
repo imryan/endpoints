@@ -182,13 +182,13 @@ Get real-time driver location, order statuses.
     "price": "0.00"
   },
   {
-  "productID": "12",
-  "title": "Peanut Butter Chip",
-  "image": "pb-chip.png",
-  "diff_tax": "0",
-  "is_packaging": "0",
-  "optionID": "1405",
-  "price": "0.00"
+    "productID": "12",
+    "title": "Peanut Butter Chip",
+    "image": "pb-chip.png",
+    "diff_tax": "0",
+    "is_packaging": "0",
+    "optionID": "1405",
+    "price": "0.00"
   },
   {
     "productID": "13",
@@ -217,7 +217,7 @@ Get real-time driver location, order statuses.
     "optionID": "1408",
     "price": "0.00"
   }
-  ],
+ ],
   "properties": {
     "title": "Cookie Flavor",
     "type": "textbox",
