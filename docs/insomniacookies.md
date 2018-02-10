@@ -71,7 +71,7 @@ Response:
 `GET https://insomniacookies.com/shop/getCart`
 
 Parameters:
-- `trackingID` : `'779725445b8610e2'`
+- Some kind of cookie from the site (ha ha)
 
 Response:
 ```
