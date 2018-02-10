@@ -6,13 +6,13 @@ Get real-time driver location, order statuses.
 ## Real-time driver location
 `GET https://insomniacookies.com/tracker/getDriverLocation/{order_id}`
 
-## Status values
+### Status values
 * `status` = `d` : `'delivered'`
 * `status` = `n`   : `'not delivered'`
 * `status` = `s`   : `'stopped'`
 * `status` = `a` : `'up next'`
 
-Response:
+### Response:
 ```
 {
   "status": {
@@ -35,16 +35,16 @@ Response:
 ## Order status
 `GET https://insomniacookies.com/tracker/getOrderStatus`
 
-Parameters:
+### Parameters:
 - `trackingID` : `'779725445b8610e2'`
 
-## Status values
+### Status values
 * `status` = `0-3` : `'baking'`
 * `status` = `4`   : `'out for delivery'`
 * `status` = `5-6`   : `'delivered'`
 * `status` = `99` : `'cancelled'`
 
-Response:
+### Response:
 ```
 {
   "0": {
@@ -70,10 +70,10 @@ Response:
 ## Cart
 `GET https://insomniacookies.com/shop/getCart`
 
-Parameters:
+### Parameters:
 - Some kind of cookie from the site (ha ha)
 
-Response:
+### Response:
 ```
 {
   "store": [],
