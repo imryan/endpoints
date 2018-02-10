@@ -66,7 +66,6 @@ Get real-time driver location, order statuses.
 }
 ```
 
-
 ## Cart
 `GET https://insomniacookies.com/shop/getCart`
 
@@ -102,5 +101,24 @@ Get real-time driver location, order statuses.
   "numProducts": 0,
   "products_debug": [],
   "has_shipping": false
+}
+```
+
+## Login
+`POST https://insomniacookies.com/user/login/json`
+
+### Parameters:
+- `email` : Your email
+- `password` : Your password
+
+### Response:
+```
+{
+  "body": {
+    "rememberMe" : null,
+    "message" : "Login successful!",
+    "firstname" : "Ryan"
+   },
+   "success":1
 }
 ```
