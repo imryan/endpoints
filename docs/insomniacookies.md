@@ -65,3 +65,42 @@ Response:
    }
 }
 ```
+
+
+## Cart
+`GET https://insomniacookies.com/shop/getCart`
+
+Parameters:
+- `trackingID` : `'779725445b8610e2'`
+
+Response:
+```
+{
+  "store": [],
+  "products": [],
+  "totals": {
+    "subtotal": "0.00",
+    "shipping": "0.00",
+    "tax": "0.00",
+    "is_tax_exempt": false,
+    "total_before": "0.00",
+    "total": "0.00",
+    "loyalty": 0,
+    "loyalty_amount": "0.00",
+    "coupon_amount": "0.00",
+    "tip": "0.00",
+    "giftcard_amount": "0.00",
+    "freeProduct": "0.00"
+  },
+  "coupon": false,
+  "shipping": false,
+  "upsell": {
+    "upsell": 0
+  },
+  "loyalty_show_signup": false,
+  "loyalty_text": "You're not logged in! You could be earning  points for this order.",
+  "numProducts": 0,
+  "products_debug": [],
+  "has_shipping": false
+}
+```
