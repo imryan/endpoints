@@ -4,7 +4,7 @@
 Get real-time driver location, order statuses.
 
 ## Real-time driver location
-`GET https://insomniacookies.com/tracker/getDriverLocation/{order_id}`
+`GET https://insomniacookies.com/tracker/getDriverLocation/{tracking_id}`
 
 ### Status values
 * `status` = `d` : `'delivered'`
