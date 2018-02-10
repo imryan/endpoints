@@ -17,6 +17,14 @@
       "endpoints": [
         "https://api.openuv.io/api/v1/uv"
       ]
+    },
+    {
+      "name": "Insomnia Cookies",
+      "website": "https://insomniacookies.com",
+      "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/insomniacookies.md",
+      "endpoints": [
+        "https://insomniacookies.com/tracker/getDriverLocation/"
+      ]
     }
   ]
 }
