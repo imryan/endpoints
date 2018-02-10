@@ -25,6 +25,7 @@
       "endpoints": [
         "https://insomniacookies.com/tracker/getDriverLocation",
         "https://insomniacookies.com/tracker/getOrderStatus",
+        "https://insomniacookies.com/user/login/json",
         "https://insomniacookies.com/shop/getCart"
       ]
     }
