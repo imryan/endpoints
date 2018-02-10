@@ -71,7 +71,7 @@ Get real-time driver location, order statuses.
 `GET https://insomniacookies.com/shop/getCart`
 
 ### Parameters:
-- Some kind of cookie from the site (ha ha)
+- `insomnia_cookie` : Some kind of cookie from the site (ha ha)
 
 ### Response:
 ```
