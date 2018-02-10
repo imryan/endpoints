@@ -24,7 +24,8 @@
       "documentation":"https://raw.githubusercontent.com/imryan/endpoints/master/docs/insomniacookies.md",
       "endpoints": [
         "https://insomniacookies.com/tracker/getDriverLocation",
-        "https://insomniacookies.com/tracker/getOrderStatus"
+        "https://insomniacookies.com/tracker/getOrderStatus",
+        "https://insomniacookies.com/shop/getCart"
       ]
     }
   ]
