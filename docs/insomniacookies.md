@@ -1,10 +1,16 @@
 ## Insomnia Cookies endpoints
 [insomniacookies.com](https://insomniacookies.com)
 
-Get real-time UV Index by location. Optional altitude, ozone level and datetime could be provided.
+Get real-time driver location, order statuses.
 
 ## Real-time driver location
 `GET https://insomniacookies.com/tracker/getDriverLocation/{order_id}`
+
+## Status values
+* `status` = `d` : `'delivered'`
+* `status` = `n`   : `'not delivered'`
+* `status` = `s`   : `'stopped'`
+* `status` = `a` : `'up next'`
 
 Response:
 ```
@@ -31,6 +37,12 @@ Response:
 
 Parameters:
 - `trackingID` : `'779725445b8610e2'`
+
+## Status values
+* `status` = `0-3` : `'baking'`
+* `status` = `4`   : `'out for delivery'`
+* `status` = `5-6`   : `'delivered'`
+* `status` = `99` : `'cancelled'`
 
 Response:
 ```
